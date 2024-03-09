@@ -9,12 +9,13 @@ body{
     --secondary-color:#529424;
     --accent1-color:#02360D;
     --accent2-color:#112D3D;
-    --heading-font:'Merriweather', serif;
+    --heading-font:'merriweather',serif;
     --paragraph-font:'Open Sans', Sans-Serif;
-    --nav-background-color:#fbfbfd; 
+    --nav-background-color:#fbfbfd;
     --nav-link-color:#0c54e6;
     --nav-hover-color:#529444;
     --nav-hover-background-color:#31314b;
+
 }
 
 body{
