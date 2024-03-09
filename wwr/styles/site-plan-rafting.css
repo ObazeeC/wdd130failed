@@ -16,12 +16,7 @@ body{
     --nav-hover-color:#529444;
     --nav-hover-background-color:#31314b;
 }
-/* 
- Primary-color:#A1A4A6, cadet gray 
-                 Secondary-color:#529424, Forest green 
-                 accent1-color: #02360D, Pakistan green
-                accent2-color: #112D3D, Gunmetal
-*/
+
 body{
     font-family: var(--paragraph-font);
     max-width:960px;
