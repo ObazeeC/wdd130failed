@@ -9,15 +9,19 @@ body{
     --secondary-color:#529424;
     --accent1-color:#02360D;
     --accent2-color:#112D3D;
-
     --heading-font:'Merriweather', serif;
     --paragraph-font:'Open Sans', Sans-Serif;
-
     --nav-background-color:#fbfbfd; 
     --nav-link-color:#0c54e6;
     --nav-hover-color:#529444;
     --nav-hover-background-color:#31314b;
 }
+/* 
+ Primary-color:#A1A4A6, cadet gray 
+                 Secondary-color:#529424, Forest green 
+                 accent1-color: #02360D, Pakistan green
+                accent2-color: #112D3D, Gunmetal
+*/
 body{
     font-family: var(--paragraph-font);
     max-width:960px;
@@ -50,10 +54,8 @@ nav a {
 nav a:link, nav a:visited {
     color:var(--nav-link-color);
 }
-nav a:hover{
+
+nav a:hover {
     color:var(--nav-hover-color);
     background-color: var(--nav-hover-background-color);
-}
-title {
-    forced-color-adjust:white;
 }
