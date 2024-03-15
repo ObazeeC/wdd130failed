@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+:root {
+    --primary-color:#A1A4A6;
+    --secondary-color:#529424;
+    --accent1-color:#02360D;
+    --accent2-color:#112D3D;
+    --heading-font:'merriweather',serif;
+    --paragraph-font:'Open Sans', Sans-Serif;
+    --nav-background-color:#fbfbfd;
+    --nav-link-color:#0c54e6;
+    --nav-hover-color:#529444;
+    --nav-hover-background-color:#31314b;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width:100%;
+    padding:5px;
+}
+h1,h2,h3,h4,h5,h6{
+    font: var(--heading-font);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+
+}
+p{
+    font: var(--paragraph-font);
+color:#000;
+}
+:link {
+    text-decoration: none;
+}
+:hover{
+    color:var(--nav-hover-color);
+}
+.hero{
+    position:relative;
+}
