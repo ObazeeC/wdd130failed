@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
     color:#529424;
 }
 header{
-    padding:20px;
+    padding:40px;
     background-color:var(--accent2-color);
 }
 
