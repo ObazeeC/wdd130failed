@@ -11,15 +11,17 @@
     --nav-hover-color:#529444;
     --nav-hover-background-color:#31314b;
 }
-body{
-    font-family: var(--paragraph-font);
-    max-width:100%;
-    padding:5px;
-}
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
+
+body{
+    font-family: var(--paragraph-font);
+    max-width:860px;
+    padding:2px;
+}
+
 header{
     padding: 20px;
     background-color:var(--primary-color);
@@ -37,20 +39,4 @@ a:hover{
 }
 a:visited{
     text-decoration: none;
-}
-
-.hero{
-    position:relative;
-}
-.loho{
-    float:right;
-}
-.media{
-    float:right;
-}
-
-footer{
-    margin-top: 15px;
-    border-top: 1px;
-    text-align: center;
 }
