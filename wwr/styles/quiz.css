@@ -71,4 +71,12 @@ label{
     display:grid;
     
 }
-
+footer{
+    border-top: 1px solid black;  
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top: 1px solid black;  
+    text-align: center;
+    margin: 0.5rem;
+    padding: .5rem;
+    
+}
