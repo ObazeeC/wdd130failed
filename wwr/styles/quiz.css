@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Merriweather, roboto, sans-serif;
+    font-size:1em;
+    color:#333;
+   
+}
+header{
+    margin: 0 auto;
+    font-weight:bold;
+    color: blue;
+}
+h1{
+    font-size: 1rem;
+    padding:.5rem;
+    text-align: center;
+}
+legend{
+    padding:.5rem;
+    color:blue;
+    font-size: 1.3em;
+}
+form{
+    width: 550px;
+    margin:0 auto;
+    padding:1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:0.5rem;
+    background-color: aquamarine;
+    display:grid;
+   
+}
+fieldset{
+    display:grid;
+    grid-gap:.5rem;
+    margin:.3rem;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.3em;
+}
+
+button{
+    margin:1rem;
+    background-color:bisque;
+    color:blue;
+    border:none;
+    border-radius:.5rem;
+    padding:.5rem;
+    margin:1.2rem;
+    font-size: 1.2rem;
+  }
+  button:hover {
+    background-color: rgb(178, 224, 178);
+  }
+input,
+select,
+textarea {
+    padding: 0.5em;
+    font-size: 1rem;
+    
+}
+label{
+    text-align:left;
+    padding-right: 1rem;
+}
+.item-form{
+    display:grid;
+    
+}
+
