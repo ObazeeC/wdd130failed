@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 body{
     font-family: var(--paragraph-font);
-    max-width:100%;
+    max-width:960px;
     padding:10px;
 }
 :root {
@@ -64,27 +64,26 @@ nav a:hover {
 
 article{
     position:absolute;
-    top:175px;
+    top:60px;
    background-color: rgba(2, 102, 128, 0.57);
    color:white;
    max-width: 85%;
-   left: 175px; 
+   left: 15px; 
 }
 
 
 h1{
     position:absolute;
     top:0;
-    left: 43%;
+    left: 30%;
     color:white;
-    padding:.5rem;
-    margin:1.2rem; 
     background-color: rgba(13, 14, 14, 0.5);
    
 }
 .hero img{
     float:right;
 padding:7px;
+}
 /*
     display:flex; this was taken from nav a 
     */
