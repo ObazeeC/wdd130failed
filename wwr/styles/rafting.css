@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 body{
     font-family: var(--paragraph-font);
-    max-width:960px;
-    padding:20px;
+    max-width:100%;
+    padding:10px;
 }
 :root {
     --primary-color:#A1A4A6;
@@ -17,37 +17,33 @@ body{
     --nav-hover-background-color:#31314b;
 }
 
-body{
-    font-family: var(--paragraph-font);
-    max-width:960px;
-    padding:20px;
-}
+
 h1,h2,h3,h4,h5,h6{
     font-family:var(--heading-font);
     color:#529424;
 }
 header{
-    margin:1rem auto;
+    
     display: grid;
-    grid-template-rows: 120px 1fr fr;
+    grid-template-rows:1fr fr;
     padding:40px;
-    background-color:var(--accent2-color);
+    border:40px;
+
 }
 
 p{
-padding:25px;
+padding:5px;
 }
 
 nav {
-background-color: var(--nav-background-color);
+    background-color: var(--nav-background-color);
 font-size: 1.2rem;
 display: flex;
 grid-template-rows:1fr 3fr;
 
 }
 nav a {
-    display:flex;
-    
+
     color:var(--nav-link-color);
     text-decoration: none;
     padding:1rem;
@@ -60,3 +56,35 @@ nav a:hover {
     color:var(--nav-hover-color);
     background-color: var(--nav-hover-background-color);
 }
+
+
+.hero{
+    position:relative;
+}
+
+article{
+    position:absolute;
+    top:175px;
+   background-color: rgba(2, 102, 128, 0.57);
+   color:white;
+   max-width: 85%;
+   left: 175px; 
+}
+
+
+h1{
+    position:absolute;
+    top:0;
+    left: 43%;
+    color:white;
+    padding:.5rem;
+    margin:1.2rem; 
+    background-color: rgba(13, 14, 14, 0.5);
+   
+}
+.hero img{
+    float:right;
+padding:7px;
+/*
+    display:flex; this was taken from nav a 
+    */
