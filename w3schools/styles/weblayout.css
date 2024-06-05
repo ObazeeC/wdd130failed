@@ -20,6 +20,7 @@ body {
 .topnav {
     overflow:hidden;
     background-color: #333;
+    padding: 25px;
 }
 
 /* Style the topnav links */
@@ -94,7 +95,7 @@ margin-top:20px;
 }
 /*WHY IS THIS BLOCK CODE NOT WORKING*/
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     .topnav a {
         float: none;
         width: 100%;
